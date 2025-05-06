@@ -1,0 +1,129 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Confirmation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 80px;
+            object-fit: contain;
+        }
+
+        .btn-yellow {
+            background-color: #ffc107;
+            color: #212529;
+            border: none;
+        }
+
+            .btn-yellow:hover {
+                background-color: #e0a800;
+                color: #fff;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4 fw-bold">Order Confirmation</h2>
+
+        <!-- Order Summary -->
+        <div class="alert alert-success">
+            <h4 class="alert-heading">Thank You for Your Purchase!</h4>
+            <p>Your order has been successfully placed. Here are the details:</p>
+            <ul>
+                <li><strong>Order Number:</strong> #12345</li>
+                <li><strong>Payment Status:</strong> Paid</li>
+                <li><strong>Shipping Status:</strong> Pending</li>
+                <li><strong>Estimated Delivery Date:</strong> 3-5 business days</li>
+            </ul>
+            <hr>
+            <p class="mb-0">You will receive an email confirmation shortly with tracking information.</p>
+        </div>
+
+        <!-- Purchased Products Table -->
+        <h3 class="text-center mb-4">Your Purchased Products</h3>
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Product 1: Dell XPS 13 (Laptop) -->
+                <tr>
+                    <td>
+                        <img src="images_/4.png" class="card-img-top" alt="Dell XPS 13" style="height: 80px;">
+                        <strong>Dell XPS 13</strong><br>
+                        Compact ultrabook with Intel i7 and 16GB RAM.
+                    </td>
+                    <td>$1,199.99</td>
+                    <td>
+                        <button class="btn btn-yellow">Remove</button>
+                        <a href="#" class="btn btn-yellow">View Product</a>
+                    </td>
+                </tr>
+
+                <!-- Product 2: iPhone 14 Pro (Smartphone) -->
+                <tr>
+                    <td>
+                        <img src="images_/2.png" class="card-img-top" alt="iPhone 14 Pro" style="height: 80px;">
+                        <strong>iPhone 14 Pro</strong><br>
+                        Apple flagship phone with triple camera system and amazing display.
+                    </td>
+                    <td>$999.99</td>
+                    <td>
+                        <button class="btn btn-yellow">Remove</button>
+                        <a href="#" class="btn btn-yellow">View Product</a>
+                    </td>
+                </tr>
+
+                <!-- Product 3: Sony WH-1000XM5 (Headphones) -->
+                <tr>
+                    <td>
+                        <img src="images_/6.jpg" class="card-img-top" alt="Sony WH-1000XM5" style="height: 80px;">
+                        <strong>Sony WH-1000XM5</strong><br>
+                        Industry-leading noise cancelling headphones.
+                    </td>
+                    <td>$349.99</td>
+                    <td>
+                        <button class="btn btn-yellow">Remove</button>
+                        <a href="#" class="btn btn-yellow">View Product</a>
+                    </td>
+                </tr>
+
+                <!-- Product 4: Apple Watch Series 8 (Smartwatch) -->
+                <tr>
+                    <td>
+                        <img src="images_/8.jpg" class="card-img-top" alt="Apple Watch Series 8" style="height: 80px;">
+                        <strong>Apple Watch Series 8</strong><br>
+                        Advanced fitness and health tracking features.
+                    </td>
+                    <td>$399.99</td>
+                    <td>
+                        <button class="btn btn-yellow">Remove</button>
+                        <a href="#" class="btn btn-yellow">View Product</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Order Total -->
+        <div class="mt-5 text-center">
+            <h4><strong>Total: $2,949.96</strong></h4>
+            <a href="homepage.html" class="btn btn-yellow">Continue Shopping</a>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
