@@ -1,0 +1,49 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "ManageProduct";
+}
+
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Products Management</h2>
+    <a href="@Url.Action("AddProduct", "AdminDashboard")" class="btn btn-primary" id="add-product-btn">
+        <i class="fas fa-plus me-2"></i>Add New Product
+    </a>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-hover" id="products-table">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="products-table-body">
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>
+                                <img src="@Url.Content($"~/{product.Image}")" alt="@product.ProductName" width="50" height="50">
+                            </td>
+                            <td>@product.ProductName</td>
+                            <td>@product.Price</td>
+                            <td>
+                                <a href="@Url.Action("EditProduct", "AdminDashboard", new { id = product.Id })" class="btn btn-warning btn-sm">
+                                    <i class="fas fa-edit"></i> Edit
+                                </a>
+                                <a href="@Url.Action("DeleteProduct", "AdminDashboard", new { id = product.Id })" class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash"></i> Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

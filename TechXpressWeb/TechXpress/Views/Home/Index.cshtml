@@ -1,0 +1,172 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Home";
+    
+}
+
+<!-- Navigation -->
+<!-- Hero Section -->
+<section class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to TechXpress</h1>
+        <p class="lead">Your one-stop shop for the latest electronics and gadgets</p>
+        <a href="#" class="btn btn-primary btn-lg mt-3">Shop Now</a>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Shop by Category</h2>
+        <div class="row g-4">
+            <div class="col-md-3 col-6">
+                <a href="#" class="text-decoration-none">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Smartphones</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-6">
+                <a href="#" class="text-decoration-none">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Laptops</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-6">
+                <a href="#" class="text-decoration-none">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-headphones fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Audio</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-6">
+                <a href="#" class="text-decoration-none">
+                    <div class="card category-card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tablet-alt fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title">Tablets</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Featured Products</h2>
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card product-card h-100">
+                        <!-- Clickable area for product details -->
+                        <a asp-controller="Products" asp-action="ProductDetails" asp-route-id="@product.Id" style="text-decoration: none; color: inherit;">
+                            <img src="@Url.Content($"~/{product.Image}")" class="card-img-top" alt="@product.ProductName">
+                            <div class="card-body">
+                                <h5 class="card-title">@product.ProductName</h5>
+                                <p class="card-text">@product.Description</p>
+                                <p class="mb-1">
+                                    <strong>Rating:</strong> @product.Rating
+                                    <span class="text-warning">
+                                        @{
+                                            for (int i = 1; i <= 5; i++)
+                                            {
+                                                if (i <= product.Rating)
+                                                {
+                                                    <i class="fas fa-star"></i>
+                                                }
+                                                else
+                                                {
+                                                    <i class="far fa-star"></i>
+                                                }
+                                            }
+                                        }
+                                    </span>
+                                </p>
+                            </div>
+                        </a>
+
+                        <!-- Price and Add to Cart (not part of the link) -->
+                        <div class="card-footer bg-white border-0">
+                            <div class="d-flex justify-content-between align-items-center px-3 pb-3">
+                                <span class="fw-bold">$@product.Price</span>
+
+                                <form asp-controller="Cart" asp-action="AddToCart" method="post" style="margin: 0;">
+                                    <input type="hidden" name="productId" value="@product.Id" />
+                                    <button type="submit" class="btn btn-sm btn-outline-primary">Add to Cart</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <div class="text-center mt-4">
+            <a asp-controller="Products" asp-action="viewProducts" class="btn btn-outline-dark">View All Products</a>
+        </div>
+    </div>
+</section>
+
+
+
+@section Styles {
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+        }
+
+        .product-card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s;
+        }
+
+            .product-card:hover {
+                transform: translateY(-5px);
+            }
+
+            .product-card img {
+                max-height: 180px;
+                object-fit: contain;
+                padding: 1rem;
+            }
+
+        .card-body {
+            flex-grow: 1;
+        }
+
+        .card-footer {
+            background-color: #fff;
+        }
+
+        .card-title {
+            font-size: 1rem;
+        }
+
+        .card-text {
+            font-size: 0.85rem;
+        }
+
+        .fa-star {
+            font-size: 0.9rem;
+        }
+    </style>
+}

@@ -1,0 +1,11 @@
+D:\ThaLastEdition\TechXpressWeb\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\ThaLastEdition\TechXpressWeb\DAL\bin\Debug\net8.0\DAL.dll
+D:\ThaLastEdition\TechXpressWeb\DAL\bin\Debug\net8.0\DAL.pdb
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.dll
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.pdb
+D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\ref\DAL.dll
