@@ -162,9 +162,28 @@ namespace TechXpress.Controllers
     }
 };
 
-        public IActionResult viewProducts()
+        public IActionResult viewProducts(string sortOrder)
         {
-          
+
+            switch (sortOrder)
+            {
+                case "priceLowToHigh":
+                    products = products.OrderBy(p => p.Price).ToList();
+                    break;
+                case "priceHighToLow":
+                    products = products.OrderByDescending(p => p.Price).ToList();
+                    break;
+                case "rating":
+                    products = products.OrderByDescending(p => p.Rating).ToList();
+                    break;
+                case "newest":
+                    products = products.OrderByDescending(p => p.Id).ToList(); // Assuming higher ID means newer
+                    break;
+                default:
+                    // Default sort (could be name or ID)
+                    products = products.OrderBy(p => p.ProductName).ToList();
+                    break;
+            }
 
             return View(products);
         }

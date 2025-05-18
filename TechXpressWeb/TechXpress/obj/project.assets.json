@@ -5606,11 +5606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ThaLastEdition\\TechXpressWeb\\TechXpress\\TechXpress.csproj",
+      "projectUniqueName": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\TechXpress.csproj",
       "projectName": "TechXpress",
-      "projectPath": "D:\\ThaLastEdition\\TechXpressWeb\\TechXpress\\TechXpress.csproj",
+      "projectPath": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\TechXpress.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "D:\\ThaLastEdition\\TechXpressWeb\\TechXpress\\obj\\",
+      "outputPath": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5631,8 +5631,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ThaLastEdition\\TechXpressWeb\\BLL\\BLL.csproj": {
-              "projectPath": "D:\\ThaLastEdition\\TechXpressWeb\\BLL\\BLL.csproj"
+            "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\BLL\\BLL.csproj"
             }
           }
         }

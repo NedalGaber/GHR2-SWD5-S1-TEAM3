@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gz8BHIPs2LA=",
+  "dgSpecHash": "P6PqGxNOnvM=",
   "success": true,
-  "projectFilePath": "D:\\ThaLastEdition\\TechXpressWeb\\TechXpress\\TechXpress.csproj",
+  "projectFilePath": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\TechXpress.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmed\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ahmed\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

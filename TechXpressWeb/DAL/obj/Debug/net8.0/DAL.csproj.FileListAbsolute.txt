@@ -9,3 +9,15 @@ D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.dll
 D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\refint\DAL.dll
 D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.pdb
 D:\ThaLastEdition\TechXpressWeb\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\bin\Debug\net8.0\DAL.dll
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\bin\Debug\net8.0\DAL.pdb
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.dll
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\DAL.pdb
+D:\DEPI\C#\TechEXpress\GHR2-SWD5-S1-TEAM3\TechXpressWeb\DAL\obj\Debug\net8.0\ref\DAL.dll

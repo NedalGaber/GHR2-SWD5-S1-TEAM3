@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ThaLastEdition\\TechXpressWeb\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08DC7627-2CA4-4E37-A627-5037D075DA36}|TechXpress\\TechXpress.csproj|d:\\depi\\c#\\techexpress\\ghr2-swd5-s1-team3\\techxpressweb\\techxpress\\views\\products\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08DC7627-2CA4-4E37-A627-5037D075DA36}|TechXpress\\TechXpress.csproj|solutionrelative:techxpress\\views\\products\\viewproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08DC7627-2CA4-4E37-A627-5037D075DA36}|TechXpress\\TechXpress.csproj|d:\\depi\\c#\\techexpress\\ghr2-swd5-s1-team3\\techxpressweb\\techxpress\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08DC7627-2CA4-4E37-A627-5037D075DA36}|TechXpress\\TechXpress.csproj|solutionrelative:techxpress\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "viewProducts.cshtml",
+              "DocumentMoniker": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\Views\\Products\\viewProducts.cshtml",
+              "RelativeDocumentMoniker": "TechXpress\\Views\\Products\\viewProducts.cshtml",
+              "ToolTip": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\Views\\Products\\viewProducts.cshtml",
+              "RelativeToolTip": "TechXpress\\Views\\Products\\viewProducts.cshtml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAQwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T19:02:03.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "TechXpress\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\DEPI\\C#\\TechEXpress\\GHR2-SWD5-S1-TEAM3\\TechXpressWeb\\TechXpress\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "TechXpress\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwLwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T19:00:36.257Z",
+              "EditorCaption": ""
             }
           ]
         }
